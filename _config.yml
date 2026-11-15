@@ -1,0 +1,21 @@
+title: 温熱論・湿熱病篇（溫熱經緯）原文・注・現代語訳
+description: 王孟英『溫熱經緯』所収の葉天士「温熱論」（葉香岩外感温熱篇）と薛生白「湿熱病篇」の原文（句読点つき）、校異・注釈、章虚谷の注と王孟英などの按語、日本語訳と解説
+lang: ja
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+relative_links:
+  enabled: true
+  collections: false
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - README.md
+  - LICENSE
